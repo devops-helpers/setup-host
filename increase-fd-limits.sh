@@ -11,5 +11,6 @@ echo "net.ipv4.tcp_wmem=1024 4096 16384" >> /etc/sysctl.conf
 echo "net.core.rmem_max=16384" >> /etc/sysctl.conf
 echo "net.core.wmem_max=16384" >> /etc/sysctl.conf
 echo "net.ipv4.ip_local_port_range=10000 65535" >> /etc/sysctl.conf
-ulimit -Hn 2000000
-ulimit -Sn 2000000
+# echo https://gist.github.com/ntamvl/017ce61db2d3c6b9c595f2fac8eeac3c
+#ulimit -Hn 2000000
+#ulimit -Sn 2000000
