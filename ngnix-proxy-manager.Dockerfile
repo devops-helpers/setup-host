@@ -1,4 +1,4 @@
-# https://www.youtube.com/watch?v=bQnh94v0iBg
+version: '3.3'
 services:
   app:
     image: 'jc21/nginx-proxy-manager:latest'
